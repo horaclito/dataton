@@ -1,7 +1,7 @@
 #ignore all zip files
 *.zip
-Galicia-datathon/data
-Galicia-datathon/respuesta_ada
-Galicia-datathon/respuesta_arbol_1
-Galicia-datathon/respuesta_arbol_2
-Galicia-datathon/respuesta_cat
+/Galicia-datathon/data.csv
+/Galicia-datathon/respuesta_ada.csv
+/Galicia-datathon/respuesta_arbol_1.csv
+/Galicia-datathon/respuesta_arbol_2.csv
+/Galicia-datathon/respuesta_cat.csv
