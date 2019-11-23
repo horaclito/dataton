@@ -1,7 +1,19 @@
-#ignore all zip files
-*.zip
-/Galicia-datathon/data.csv
-/Galicia-datathon/respuesta_ada.csv
-/Galicia-datathon/respuesta_arbol_1.csv
-/Galicia-datathon/respuesta_arbol_2.csv
-/Galicia-datathon/respuesta_cat.csv
+#ignore all zipped answers
+/respuesta_ada
+/respuesta_arbol_1
+/respuesta_arbol_2
+/respuesta_cat
+/catboost_info
+/respuesta_random
+/respuesta_xgb
+/respuesta
+
+#ignore dataset
+/data
+
+#ignore jupyter checkcpoints
+/.ipynb_checkpoints
+
+#ignore temporary files and numpy files
+*.txt
+*.npy
