@@ -1,15 +1,15 @@
-:en: [English Version](https://github.com/iseka-dev/Galicia-datathon/blob/master/README.md)
+:uk: [English Version](https://github.com/iseka-dev/Galicia-datathon/blob/master/README.md)
 
-# :alien: Galicia Datathon :alien:
+# :alien: Dataton Galicia :alien:
 
-This project was developed on occasion of the **Galicia Dathaton**, hosted in Kaggle.
+Este proyecto fue desarrollado en ocasión de la Datatón organizada por el Banco Galicia en Kaggle.
 
-The competition aimed to predict *positive conversions* among Galicia's clients, in the first trimester of 2019. To that purpose, a dataset with user's behavior in Galicia's website and actual conversions in 2018 were given.
-The dataset can be downloaded from [here](https://www.kaggle.com/c/banco-galicia-dataton-2019/data)
+El objetivo de la competencia era predecir aquellos clientes del banco Galicia que fueran a realizar *conversiones positivas* durante el primer trimestre del 2019. Para ese propósito fue dado un dataset con con el comportamiento de los usarios en el sitio web del banco Galicia durante el año 2018 y el primer trimestre del 2019, y que también incluía aquellos usuarios que realizaron conversiones positivas durante el año 2018.
+El dataset puede descargarse desde [aquí](https://www.kaggle.com/c/banco-galicia-dataton-2019/data)
 
-This [notebook - galicia1.ipynb](https://github.com/iseka-dev/Galicia-datathon/blob/master/galicia1.ipynb) contains trained and optimised -when appropriated- models. Here is an exhaustive list of implemented models: *light gradient boosting* (kernel), *Decision Tree*, *AdaBoost*, *RandomForestClaslsifier*, CATboost*, XGBoosting*, *SupportVectorMachine*, *Clustering*, and finally a stacking solution was submitted to the Kaggle competition. Feature selection was done through PCA and selectKbest(). And models were trained and validated through different kinds of splittings (KFold or simple train/test splitting). 
-It's worth noting that, even if I ended up in the first third of competitors, the participation was more an excuse to implement different models.
+Este [notebook - galicia1.ipynb](https://github.com/iseka-dev/Galicia-datathon/blob/master/galicia1.ipynb) contiene los modelos que fueron entrenados y optimizados. A continuación, una lista exhaustiva de los modelos implementados: *light gradient boosting* (kernel), *Decision Tree*, *AdaBoost*, *RandomForestClaslsifier*, CATboost*, XGBoosting*, *SupportVectorMachine*, *Clustering*, y final mente una solución por *stacking* fue presentada a la competición. En el notebook también se hizo selección de features a través de PCA y selectKbest(). Los modelos fueron entrenados y validados usando diferentes tipos de segmentación (KFold o train/test splitting). 
+Vale notar que, si bien finalice en el primer tercio de competidores, la participación fue una oportunidad para implementar diferentes modelos.
 
-[respuesta_final.csv](https://github.com/iseka-dev/Galicia-datathon/blob/master/respuesta_final) provides the *submitted solution* to the Datathon. It is the result of the stacking prediction. If well the code produces .zip files with solutions for each model alone, these are not provided. Anyway, these solutions could be only checked with actual conversions in the first trimester of 2019, but Kaggle doesn't provide this data, which was used to evaluate competitors.
+[respuesta_final.csv](https://github.com/iseka-dev/Galicia-datathon/blob/master/respuesta_final) provee la *solución* presentada al datatón. Es el resultado de la predicción por stacking. Si bien el notebook también produce archivos .zip con las soluciones al desafio según cada modelo por separado, estos archivos no son provistos. La principal razón es que las soluciones sólo pueden ser evaluadas en comparación con las conversión reales durante el primer trimestre del 2019, pero Kaggle no provee esta data, que sirve para determinar los ganadores de la competición.
 
 skills: python, pandas, PCA, feature selection, scikit-learn (decision tree, SVM, RandomForest, Clustering), LGBM, XGBoosting, CATboost, Stacking.
