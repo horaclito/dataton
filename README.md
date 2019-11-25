@@ -1,4 +1,6 @@
-# :alien: Galicia datathon :alien:
+:es: [Versión en Español](https://github.com/iseka-dev/Galicia-datathon/blob/master/README.sp.md)
+
+# :alien: Galicia Datathon :alien:
 
 This project was developed on occasion of the **Galicia Dathaton**, hosted in Kaggle.
 
