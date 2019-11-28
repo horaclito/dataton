@@ -1,4 +1,4 @@
-:uk: [English Version](https://github.com/iseka-dev/Galicia-datathon/blob/master/README.md)
+:uk: [Go to english version](https://github.com/iseka-dev/Galicia-datathon/blob/master/README.md)
 
 # :alien: Dataton Galicia :alien:
 
