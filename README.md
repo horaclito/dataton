@@ -1,4 +1,4 @@
-:es: [Versión en Español](https://github.com/iseka-dev/Galicia-datathon/blob/master/README.sp.md)
+:es: [Ir a versión en español](https://github.com/iseka-dev/Galicia-datathon/blob/master/README.sp.md)
 
 # :alien: Galicia Datathon :alien:
 
